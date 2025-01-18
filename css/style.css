@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  #catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .ficha {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .ficha img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .faixa-etaria {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .faixa-etaria.verde {
+    background-color: green;
+  }
+  
+  .faixa-etaria.amarelo {
+    background-color: yellow;
+    color: #333;
+  }
+  
+  .faixa-etaria.vermelho {
+    background-color: red;
+  }
+  
+  .rating {
+    color: gold;
+    font-size: 20px;
+  }
+  
